@@ -276,7 +276,7 @@ and downgraded `numpy` there (1.24.3 -> 1.21.6) as a side effect - which
 conflicts with TensorFlow's requirements in that base environment.
 
 **Why it happened:** The venv's `activate` script hardcodes an absolute
-path to itself (`VIRTUAL_ENV=/Users/ilakia/Downloads/causal-uplift-marketing/venv`)
+path to itself (`VIRTUAL_ENV=/Users/username/Downloads/causal-uplift-marketing/venv`)
 at creation time. Moving the folder didn't update that internal path, so
 `source venv/bin/activate` pointed at a location that no longer existed.
 Python/pip silently fell through to the system/conda default instead of
