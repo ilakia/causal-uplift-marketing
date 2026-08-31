@@ -1,0 +1,21 @@
+# Core
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+
+# Causal ML
+econml
+causalml
+scikit-uplift
+
+# Deep learning (for TARNet/Dragonnet phase)
+torch
+
+# Notebook environment
+jupyter
+ipykernel
+
+# Optional: LLM report layer (later phase)
+anthropic
